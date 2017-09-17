@@ -1,6 +1,5 @@
 window.onload = function () {
 
-    /*
     function get(url) {
         return new Promise(function (resolve, reject) {
             var xhttp = new XMLHttpRequest();
@@ -35,8 +34,11 @@ window.onload = function () {
     }).catch(function (err) {
         console.log(err);
     });
-    */
 
+
+
+/*
+    // jQuery
     $.get("./data.json").then(function (data) {
         console.log(data);
         return $.get("./data2.json");
@@ -48,4 +50,6 @@ window.onload = function () {
     }).catch(function (err) {
         console.log(err);
     });
+*/
+
 }
